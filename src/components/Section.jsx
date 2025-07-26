@@ -8,8 +8,8 @@ export default function Section(props){
         autoPlay loop muted playsInline/> 
     </div>
      <div className=" font-black text-white md:mt-28 p-8 md:px-28">
-        <h1 className="text-5xl  md:text-left mb-5 tracking-tighter leading-[0.9 font-[Poppins] uppercase">{props.header}</h1>
-        <p className="text-base   md:text-left font-[Poppins]">{props.paragraph}</p>
+        <h1 className="md:text-5xl text-3xl md:text-left mb-5 tracking-tighter leading-[0.9] font-[Poppins] uppercase">{props.header}</h1>
+        <p className="text-base md:text-left font-[Poppins]">{props.paragraph}</p>
         </div>
    </div>
 </div>
