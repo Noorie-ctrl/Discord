@@ -1,6 +1,6 @@
 export default function Reversed(props){
     return(
-<div className="bg-gradient-to-b from-[#5865F2] to-[#404EED] md:max-w-7xl min-h-screen p-5 md:p-9 w-[80%] mx-auto rounded-[5rem] mt-15 md:mt-5">
+<div className="bg-gradient-to-b from-[#5865F2] to-[#404EED] md:max-w-7xl min-h-screen p-5 md:p-9 max-w-5xl mx-auto rounded-[5rem] mt-15 md:mt-5">
    <div className=" grid grid-cols-1 md:grid-cols-[45%_55%] min-h-screen">
      <div className=" font-black text-white mt-9 md:mt-28 p-8 md:px-28">
             <h1 className="md:text-5xl text-3xl md:text-left mb-5 tracking-tighter leading-[0.9] font-[Poppins] uppercase">{props.header}</h1>
