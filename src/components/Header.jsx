@@ -37,7 +37,7 @@ export default function Header(){
     return (
        <header className=" flex justify-between relative p-9 ">
           <img className="w-30 h-6 font-black text-white " src= {logo} alt="Discord logo" />
-          <nav className="flex md:space-x-10 hidden md:block md:flex">{navLinks}</nav>
+          <nav className="flex md:space-x-8 lg:space-x-8 hidden md:block md:flex">{navLinks}</nav>
           <div className="flex space-x-5">
              <button className="bg-white text-base p-2 py-2 rounded-xl hover:bg-gray-500 cursor-pointer font-[Poppins]">Log in</button>
             
