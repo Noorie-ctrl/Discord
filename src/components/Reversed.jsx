@@ -4,7 +4,7 @@ export default function Reversed(props){
    <div className=" grid grid-cols-1 md:grid-cols-[45%_55%] min-h-screen">
      <div className=" font-black text-white mt-9 md:mt-28 p-8 md:px-28">
             <h1 className="md:text-5xl text-3xl md:text-left mb-5 tracking-tighter leading-[0.9] font-[Poppins] uppercase">{props.header}</h1>
-            <p className="text-base   md:text-left font-[Poppins]">{props.paragraph}</p>
+            <p className="text-base mt-5  md:text-left font-[Poppins]">{props.paragraph}</p>
      </div>
         <div className={`w-full rounded-[5rem]`}
             style={{ backgroundColor:props.bgColor}}>

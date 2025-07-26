@@ -9,7 +9,7 @@ export default function Section(props){
     </div>
      <div className=" font-black text-white mt-9 md:mt-28 p-8 md:px-28">
         <h1 className="md:text-5xl text-3xl md:text-left mb-5 tracking-tighter leading-[0.9] font-[Poppins] uppercase">{props.header}</h1>
-        <p className="text-base md:text-left font-[Poppins]">{props.paragraph}</p>
+        <p className="text-base md:text-left mt-5 font-[Poppins]">{props.paragraph}</p>
         </div>
    </div>
 </div>
