@@ -1,6 +1,6 @@
 export default function Section(props){
     return(
-<div className="bg-gradient-to-b from-[#5865F2] to-[#404EED] md:max-w-7xl min-h-screen p-5 md:p-9 w-[80%] h-[50%] mx-auto rounded-[5rem] mt-15 md:mt-5">
+<div className="bg-gradient-to-b from-[#5865F2] to-[#404EED] md:max-w-7xl p-5 md:p-9 w-[90%] mx-auto rounded-[5rem] mt-15 md:mt-5">
    <div className=" grid grid-cols-1 md:grid-cols-[55%_45%] min-h-screen">
     <div className={`  rounded-[5rem]`}
     style={{ backgroundColor:props.bgColor}}>
