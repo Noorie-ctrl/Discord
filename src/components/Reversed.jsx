@@ -6,10 +6,10 @@ export default function Reversed(props){
             <h1 className="md:text-5xl text-3xl md:text-left mb-5 tracking-tighter leading-[0.9] font-[Poppins] uppercase">{props.header}</h1>
             <p className="text-base   md:text-left font-[Poppins]">{props.paragraph}</p>
      </div>
-        <div className={`w-full  rounded-[5rem]`}
+        <div className={`w-full rounded-[5rem]`}
             style={{ backgroundColor:props.bgColor}}>
-           <video className=" p-15 md:w-full md:h-full rounded-[5rem] " src ={props.videoSrc}
-        autoPlay loop muted playsInline/> 
+           <video className=" p-9 w-full h-full rounded-[5rem] " src ={props.videoSrc}
+            autoPlay loop muted playsInline/> 
         </div>
        
    </div>

@@ -4,7 +4,7 @@ export default function Section(props){
    <div className=" grid grid-cols-1 md:grid-cols-[55%_45%] min-h-screen">
     <div className={`  rounded-[5rem]`}
     style={{ backgroundColor:props.bgColor}}>
-        <video className=" p-15 md:w-full md:h-full rounded-[5rem] " src ={props.videoSrc}
+        <video className=" p-9 w-full h-full rounded-[5rem] " src ={props.videoSrc}
         autoPlay loop muted playsInline/> 
     </div>
      <div className=" font-black text-white md:mt-28 p-8 md:px-28">
