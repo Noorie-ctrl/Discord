@@ -28,8 +28,8 @@ export default function App() {
       //  backgroundVideo={backgroundImg}
        header ="MAKE YOUR GROUP CHATS MORE FUN"
        paragraph ="Use custom emoji, stickers, soundboard effects and more to add your personality to your voice, video, or text chat. Set your avatar and a custom status, and write your own profile to show up in chat your way."
-       bgColor="#de2761"
-       videoSrc="https://www.w3schools.com/html/mov_bbb.mp4"
+      
+       videoSrc="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2%2F6787b62a9742f59453ba8919_Discord_Websote_Refresh_Emojis2_EN-transcode.mp4"
        
        />
       <Reversed
@@ -37,7 +37,7 @@ export default function App() {
        paragraph ="High quality and low latency streaming makes it feel like you're hanging out on the couch with friends while playing a game, watching shows, looking at photos, or idk doing homework or something."
       //  backgroundImg={backgroundImg} 
        bgColor=" #6b21a8"
-        videoSrc ="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        videoSrc ="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2%2F6763b611120b46189e164b4a_Discord_Website_Refresh_EN-transcode.mp4"
        
       
        />
@@ -46,7 +46,7 @@ export default function App() {
        header ="Hop in when you're free, no need to call"
        paragraph ="Easily hop in and out of voice or text chats without having to call or invite anyone, so your party chat lasts before, during, and after your game session."
        bgColor="#9333ea"
-       videoSrc="https://www.w3schools.com/html/mov_bbb.mp4"
+       videoSrc="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2%2F683a317f73a44ea577535c09_Homepage_Hop-In_EN-transcode.mp4"
       
        />
       <Reversed 
@@ -54,7 +54,7 @@ export default function App() {
       header ="See who's around to chill"
        paragraph ="See who's around, playing games, or just hanging out. For supported games, you can see what modes or characters your friends are playing and directly join up."
        bgColor = "#2dd4bf"
-        videoSrc ="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        videoSrc ="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2%2F683a3195524ad05044d126c9_Homepage_AroundToChill_EN-transcode.mp4"
        
       />
        <Person />
@@ -63,7 +63,7 @@ export default function App() {
        header ="always have something to do together"
        paragraph ="Watch videos, play built-in games, listen to music, or just scroll together and spam memes. Seamlessly text, call, video chat, and play games, all in one group chat."
         bgColor="#3b82f6"
-         videoSrc="https://www.w3schools.com/html/mov_bbb.mp4"
+         videoSrc="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2%2F6763b9f56c9bf69e5e914cd5_Discord_Refresh_Activities_EN-transcode.mp4"
        />
       
       <Reversed
@@ -71,7 +71,7 @@ export default function App() {
       header ="wherever YOU GAME, HANG OUT HERE"
       paragraph ="On your PC, phone, or console, you can still hang out on Discord. Easily switch between devices and use tools to manage multiple group chats with friends."
       bgColor =" #171718ff"
-       videoSrc ="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+       videoSrc ="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2%2F6763ba683086419cf7bfb7fb_Discord_Refresh_Platforms-transcode.mp4"
       
        />
        </div>

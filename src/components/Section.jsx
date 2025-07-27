@@ -1,10 +1,9 @@
 export default function Section(props){
     return(
-<div className="bg-gradient-to-b from-[#5865F2] to-[#404EED] md:max-w-7xl p-5 md:p-9 w-[90%] mx-auto rounded-[5rem] mt-15 md:mt-5">
-   <div className=" grid grid-cols-1 md:grid-cols-[55%_45%] min-h-screen">
-    <div className={`  rounded-[5rem]`}
-    style={{ backgroundColor:props.bgColor}}>
-        <video className=" p-9 w-full h-full rounded-[5rem] " src ={props.videoSrc}
+<div className="bg-gradient-to-b from-[#5865F2] to-[#404EED] md:max-w-7xl w-[90%]  p-5 md:p-9  mx-auto min-h-screen rounded-[5rem] mt-15 md:mt-5">
+   <div className=" grid grid-cols-1 md:grid-cols-[55%_45%]">
+    <div className="w-full h-full">
+        <video className="w-full h-full object-cover rounded-[5rem]" src ={props.videoSrc}
         autoPlay loop muted playsInline/> 
     </div>
      <div className=" font-black text-white mt-9 md:mt-28 p-8 md:px-28">
